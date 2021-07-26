@@ -1,0 +1,35 @@
+.todo{
+    background-color: #08526d;
+    padding: 14px;
+    color: #fff;
+    font-weight: bold;
+}
+.row{
+    margin: 0;
+}
+.todo span{
+    display: inline-block;
+    font-size: 23px;
+}
+.todo2{
+    padding: 14px;
+    background-color: #08526dd6;
+}
+.todo2 span{
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    font-size: 23px;
+}
+p{
+    font-size: 22px;
+    margin-bottom: 0;
+    padding: 10px;
+    color: #08526d;
+}
+@media(max-width:450px){
+    .todo span,
+    .todo2 span{
+        font-size: 15px;
+    }
+}
